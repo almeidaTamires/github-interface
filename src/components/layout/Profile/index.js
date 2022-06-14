@@ -4,14 +4,14 @@ import * as S from './Styled'
 const Profile = () => {
     return <S.Wrapper>
                 <S.WrapperImage src="https://avatars.githubusercontent.com/u/99164770?v=4" alt="picture of user"/>
-   <div>
-    <S.WrapperInfoUser>
+   <S.WrapperInfoUser>
+    <div>
         <h1>Tamires Almeida</h1>
         <S.WrapperUserName>
             <h3>UserName: </h3>
-            <span>almeidaTamires</span>
+            <a href="https://github.com/almeidaTamires" target="_blank" rel="noreferrer">almeidaTamires</a>
         </S.WrapperUserName>
-    </S.WrapperInfoUser>
+    </div>
 
             <S.WrapperStatusCount>
                 <div>
@@ -19,7 +19,7 @@ const Profile = () => {
                     <span>5</span>
                 </div>
                 <div>
-                    <h4>Starreds</h4>
+                    <h4>Starred</h4>
                     <span>5</span>
                 </div>
                 <div>
@@ -27,7 +27,7 @@ const Profile = () => {
                     <span>5</span>
                 </div>
             </S.WrapperStatusCount>
-        </div> 
+   </S.WrapperInfoUser> 
     </S.Wrapper>;
 }
 

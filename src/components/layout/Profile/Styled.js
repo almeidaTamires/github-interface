@@ -12,10 +12,24 @@ import styled from 'styled-components';
  flex-direction:column;
  align-items:flex-start;
  justify-content:space-between;
- height:auto;
  margin-left:8px;
- `
-;
+ height:200px;
+
+ h1 {
+   font-size:32px;
+   font-weight:bold;
+ }
+
+ h3 {
+   font-size:18px;
+   font-weight:bold;
+ }
+
+ h4 {
+  font-size:18px;
+  font-weight:bold;
+}
+ `;
 
 export const WrapperImage = styled.img `
  border-radius:50%;
@@ -27,14 +41,24 @@ export const WrapperImage = styled.img `
  export const WrapperStatusCount = styled.div `
  display:flex;
  align-items:center;
+ div {
+   margin:8px;
+   text-align:center;
+ }
  `
 ;
 
  export const WrapperUserName = styled.div `
  display:flex;
  align-items:center;
+ margin-top:8px;
  h3 {
     margin-rigth:8px;
+ }
+ a {
+   color:blue;
+   font-weight:bold;
+   font-size:18px;
  }
   `
 ;
