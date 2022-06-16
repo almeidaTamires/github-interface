@@ -1,4 +1,4 @@
-{
+{  "homepage" : "https://almeidatamires.github.io/github-interface/",
   "name": "github-api",
   "version": "0.1.0",
   "private": true,
@@ -12,8 +12,7 @@
     "react-scripts": "4.0.3",
     "react-tabs": "^3.2.1",
     "styled-components": "^5.2.1",
-    "web-vitals": "^1.0.1",
-    "homepage" : "https://almeidatamires.github.io/github-interface/"
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
